@@ -1,0 +1,90 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Welcome to Tirupathur District
+    </ion-title>
+    <!--Navbar-->
+    <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark indigo">
+
+      <!-- Navbar brand -->
+      <mdb-navbar-brand><a class="navbar-brand" href="#">Tirupathur District</a></mdb-navbar-brand>
+
+      <!-- Collapsible content -->
+      <links>
+
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link waves-light" mdbWavesEffect>Home<span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+        <!-- Links -->
+
+
+      </links>
+      <!-- Collapsible content -->
+
+    </mdb-navbar>
+    <!--/.Navbar-->
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-no-padding">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Home</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container" class="ion-no-padding" style="height: 100%;">
+    <ion-row class="ion-no-padding">
+      <ion-col size="12" size-md="6">
+        <mdb-carousel class="carousel slide carousel-fade carousel-size" [type]="'carousel-thumbnails'"
+          [animation]="'fade'">
+          <mdb-carousel-item>
+            <img class="d-block w-100" src="../../assets/pictures/IMG_3507.JPG" alt="First slide">
+          </mdb-carousel-item>
+          <mdb-carousel-item>
+            <img class="d-block w-100" src="../../assets/pictures/IMG_3462.JPG" alt="Second slide">
+          </mdb-carousel-item>
+          <mdb-carousel-item>
+            <img class="d-block w-100" src="../../assets/pictures/IMG_3470.JPG" alt="Third slide">
+          </mdb-carousel-item>
+          <mdb-carousel-item>
+            <img class="d-block w-100" src="../../assets/pictures/IMG_3510.JPG" alt="Fourth slide">
+          </mdb-carousel-item>
+        </mdb-carousel>
+      </ion-col>
+      <ion-col size="12" size-md="6" style="height: 100%;">
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/R9Tq8xQcyWc" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </ion-col>
+    </ion-row>
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>
+          <h1>About Tirupathur</h1>
+        </ion-card-title>
+
+      </ion-card-header>
+      <ion-card-content>
+        Tirupathur district is a district of Tamil Nadu, India, formed by trifuricating the Vellore district. The
+        Government of Tamil Nadu has announced its proposal on August 15, 2019, together with Ranipet district.
+        However it was officially declared on November 28, 2019 by Chief Minister. The town of Tirupathur would serve
+        as the district headquarters.
+
+        Tirupathur District consists of two Revenue Divisions, Tirupathur and Vaniyambadi, Four Taluks., Tirupattur,
+        Natrampalli, Vaniyambadi, and Ambur, Fifteen Revenue Firkas, Tirupattur, Andiyappanur, Koratti, Kandili,
+        Jolarpet, Pudurnadu, Natrampalli, Ammanankoil, Vaniyambadi, Ambalur, Alangayam,Ambur, Madhanur, Thuthipattu,
+        and Melsanankuppam., comprising of 195 Revenue Villages. The District has Six blocks, Thirupathur,
+        Natrampalli, Kandhili, Jolarpet, Alangayam, and Madhanur, comprising of 208 Village Panchayats. There are five
+        Municipalities, Tirupathur, Jolarpet, Vaniyambadi, and Ambur and Three Town Panchayats Alangayam, Natrampalli,
+        and Udayendiram.
+      </ion-card-content>
+    </ion-card>
+    <a mdbBtn color="primary" class="waves-light" mdbWavesEffect>
+      <mdb-icon fas icon="car" class="left"></mdb-icon>Sakthi Driving School
+    </a>
+  </div>
+</ion-content>
